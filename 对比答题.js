@@ -4,7 +4,7 @@ function readTxtFile(filePath) {
     if (files.exists(filePath)) {
         console.log(`文件 ${filePath} 存在，开始读取`);
         return files.read(filePath);
-    }
+    };
     console.log(`文件 ${filePath} 不存在`);
     return null;
 }
