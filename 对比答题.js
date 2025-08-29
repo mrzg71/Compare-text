@@ -77,7 +77,7 @@ function editDistance(s1, s2) {
                     costs[j - 1] = lastValue;
                     lastValue = newValue;
                 };
-            }
+            };
         }
         if (i > 0) {
             costs[s2.length] = lastValue;
