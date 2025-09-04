@@ -42,7 +42,7 @@ function extractQuestionAndAnswer(fileContent) {
     }
     return questions;
 }
-// 计算两个字符串的相似度
+// 计算两个字符串的相似度。
 function similarity(s1, s2) {
     let longer = s1;
     let shorter = s2;
