@@ -1,4 +1,4 @@
-//进行读取 TXT 文件内容读取
+//进行读取 TXT 文件内容读
 function readTxtFile(filePath) {
     console.log(`尝试读取文件: ${filePath}`);
     if (files.exists(filePath)) {
