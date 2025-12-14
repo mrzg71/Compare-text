@@ -1,4 +1,4 @@
-////进行读取 TXT 文件
+/////进行读取 TXT 文件
 function readTxtFile(filePath) {
     console.log(`尝试读取文件: ${filePath}`);
     if (files.exists(filePath)) {
@@ -124,4 +124,5 @@ function compareAndWriteAnswers(txt1Path, txt2Path) {
 const desktopPath = path.join(process.env.USERPROFILE, 'Desktop');
 const txt1Path = path.join(desktopPath, '题目.txt');
 const txt2Path = path.join(desktopPath, '儿科护理.txt');
+
 compareAndWriteAnswers(txt1Path, txt2Path);
